@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=UnifrakturMaguntia&display=swap');
+
+body {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwkADgxu13docTdgGDyTUenzUWwQUC12FvOw&s);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 950px 550px;
+    background-color: darkred;
+    margin: 150px;
+}
+
+.container {
+	background-color: darkslategrey;
+	border-radius: 3px;
+	border-style: dashed;
+	width: 90%;
+}
+
+.col {
+	text-align: center;
+	place-items: center;
+}
+
+.row {
+	background-color: darkred;
+	border-radius: 7px;
+}
+
+.shadow-lg {
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.8) !important;
+}
+
+h1 {
+	background-color: burlywood;
+	color: maroon;
+	text-align: center;
+	border-radius: 15px;
+	font-family: 'Gravitas One';
+	font-size: 45px;
+	border-style: ;
+}
+
+summary {
+	background-color: bisque;
+	color: goldenrod;
+	font-family: 'UnifrakturMaguntia';
+	font-size: 20px;
+}
+
+label {
+	text-align: left;
+	background-color: midnightblue;
+	color: black;
+}
+
+a {
+	color: dimgrey;
+	font-family: 'UnifrakturMaguntia';
+}
+
+img {
+	width: 245px;
+	height: 165px;
+	border-style: dashed;
+	border-color: darkslategrey;
+}
+
+button {
+	align-self: center;
+	margin-bottom: 10px;
+}
